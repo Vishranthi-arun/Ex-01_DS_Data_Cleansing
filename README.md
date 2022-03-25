@@ -31,10 +31,11 @@ df['current_overall_rank']=df['current_overall_rank'].fillna(df['current_overall
 df['watchers']=df['watchers'].fillna(df['watchers'].median())
 print(df.isnull().sum())
 ```
-
 # OUPUT
-[OUTPUT](./img/before-cleaning-data.png)
-[OUTPUT](./img/after-cleaning-data.png)
+BEFORE CLEANING THE DATA
+![before-cleaning-data](https://user-images.githubusercontent.com/93427278/160145076-d8c74d91-2536-4c16-88b8-4d718d716b3d.png)
+AFTER CLEANING THE DATA
+![after-cleaning-data](https://user-images.githubusercontent.com/93427278/160145033-3f289ece-85ca-47e7-bc3d-3722919e6d06.png)
 
 # RESULT
 Thus, the given data is read, cleaned and the cleaned data is saved into the file.
