@@ -32,9 +32,12 @@ df['watchers']=df['watchers'].fillna(df['watchers'].median())
 print(df.isnull().sum())
 ```
 # OUPUT
-BEFORE CLEANING THE DATA
+## BEFORE CLEANING THE DATA
+
 ![before-cleaning-data](https://user-images.githubusercontent.com/93427278/160145076-d8c74d91-2536-4c16-88b8-4d718d716b3d.png)
-AFTER CLEANING THE DATA
+
+## AFTER CLEANING THE DATA
+
 ![after-cleaning-data](https://user-images.githubusercontent.com/93427278/160145033-3f289ece-85ca-47e7-bc3d-3722919e6d06.png)
 
 # RESULT
